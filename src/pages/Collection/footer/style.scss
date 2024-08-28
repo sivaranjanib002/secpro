@@ -1,0 +1,36 @@
+@import "../../../scss/fontUtility";
+.footerCards {
+  margin-top: 70px;
+
+  > .title {
+    @include font_color(title);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+  }
+  > .title-m {
+    @include font_color(title);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  > .subcard {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 43px;
+    margin-left: 45px;
+  }
+  > .desc {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 3px;
+  }
+  > .image {
+    margin-top: 40px;
+    display: flex;
+    gap: 5px;
+  }
+}
